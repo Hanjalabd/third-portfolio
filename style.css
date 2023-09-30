@@ -64,18 +64,14 @@ body{
     display: flex;
     text-align: center;
     gap: 10px;
+    justify-items: center center;
   }
-  .donate-amount-boxes .selected-amount{
-    border:2px solid var(--rose) ;
-    color: var(--rose);
-    background-color: #ffeeee;
-  }
-
+  
 .donate-amount-boxes h3{
-    background-color: #fafafa;
+    background-color: #b0a0a0;
     padding: 25px;
     font-size: 30px;
-    color: gray;
+    color: rgb(26, 121, 153);
     border-radius: 5px;
   }
   
@@ -97,16 +93,36 @@ body{
     font-family: 'Poppins';
     margin-top: 15px;
   }
-  footer{
-    background-color: black;
+ 
+  .b{
+    font-size: 35px;
+    color: black;
     text-align: center;
-    padding: 25px;
+    padding: 5px;
 }
-
-samp{
-    color: #C70039;
-
+.c{
+    font-size: 15px;
+    color: black;
+    text-align: center;
 }
-card{
-  color:#f78c6b
+.d{
+    display: flex;
+}
+.e{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+    padding:5%;
+    margin: 30px;
+    background-color: azure;
+}
+.f{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+    padding:5%;
+    margin: 30px;
+    background-color: azure;
+}
+.g{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+    padding:5%;
+    margin: 30px;
+    background-color: azure;
 }
