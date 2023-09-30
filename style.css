@@ -1,0 +1,45 @@
+:root{
+    --rose: #ff5959;
+    --poppins: 'poppins', sans-serif;
+}
+
+body{
+    font-family: var(--poppins);
+    font-size: 17px;
+    font-weight: 50;
+    margin: 0;
+}
+
+.top-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1),rgba(255, 255, 255, 0.1)), url("image/ab.jpg");
+    padding:100px 20%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-family: 'Gabarito', cursive;
+    font-size: 60px;
+    color:aliceblue;
+    font-weight: 100;
+    top: center;
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #E9B824, #EE9322);
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-image: linear-gradient(to bottom,#fc635f,#f78c6b); 
+}
+.a{
+    color: aliceblue;
+    font-size: 10px;
+    text-align: center;
+}
