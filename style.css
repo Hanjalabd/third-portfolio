@@ -142,3 +142,27 @@ font-family: 'Gabarito', cursive;
 .s{
 font-size: 12px;
 }
+
+.botton{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 60%;
+}
+.botton img{
+  height: 200px;
+  width: 450px;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+samp{
+  color: #C70039;
+
+}
+base{
+ color:#ede4e1;
+}
