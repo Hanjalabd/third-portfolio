@@ -43,3 +43,70 @@ body{
     font-size: 10px;
     text-align: center;
 }
+
+  .des{
+    text-align: center;
+    color: #f78c6b;
+  }
+  .btn{
+    text-decoration: none;
+    background-color: var(--rose);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .section-title{
+    padding: 15px 25%;
+    text-align: center;
+  }
+  
+.donate-amount-boxes{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+  }
+  .donate-amount-boxes .selected-amount{
+    border:2px solid var(--rose) ;
+    color: var(--rose);
+    background-color: #ffeeee;
+  }
+
+.donate-amount-boxes h3{
+    background-color: #fafafa;
+    padding: 25px;
+    font-size: 30px;
+    color: gray;
+    border-radius: 5px;
+  }
+  
+  input.other-amount {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    color: #ddd !important;
+    font-family: 'Poppins';
+  }
+  
+  form .btn {
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin-top: 15px;
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+samp{
+    color: #C70039;
+
+}
+card{
+  color:#f78c6b
+}
