@@ -126,3 +126,19 @@ body{
     margin: 30px;
     background-color: azure;
 }
+.container img{
+  height: 250px;
+  width: 250px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+padding: 40px;
+width: 60%;
+}
+.p{
+font-family: 'Gabarito', cursive;
+}
+.s{
+font-size: 12px;
+}
